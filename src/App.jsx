@@ -1,31 +1,39 @@
 import React from 'react'
 import Navbar from './Compenet/Navbar'
-import Product from './Compenet/Product'
-import CustomPaging from './Compenet/Slider'
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './Compenet/Home'
+import Contact from './Compenet/Contact'
+import Error from './Compenet/Error'
+import ProductDetails from './Compenet/ProductDetails'
 
 const App = () => {
   return (
     <>
-  <BrowserRouter>
-    <Navbar/>
-    <CustomPaging/> 
-
-
-  <Routes>
-
-    <Route path='/' element={<Product/>}></Route>
-  </Routes>
-  
-  </BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
 
 
 
-  {/* <Navbar/> */}
+        <Routes>
 
-{/* <Product/> */}
-{/* <CustomPaging/>  */}
-    
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/*' element={<Error />}></Route>
+          <Route path='/product_Detalis/:id' element={<ProductDetails />}></Route>
+
+
+
+        </Routes>
+
+      </BrowserRouter>
+
+
+
+      {/* <Navbar/> */}
+
+      {/* <Product/> */}
+      {/* <CustomPaging/>  */}
+
     </>
   )
 }
