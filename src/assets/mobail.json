@@ -6,6 +6,8 @@
     "price": 1199,
     "color": "Deep Purple",
     "ram": "6GB",
+       "cat":"cloth",
+
     "storage": "256GB",
     "battery": "3200mAh",
     "display": "6.1-inch OLED",
@@ -20,6 +22,8 @@
     "brand": "Samsung",
     "model": "Galaxy S23 Ultra",
     "price": 1349,
+       "cat":"Electronics",
+
     "color": "Phantom Black",
     "ram": "12GB",
     "storage": "512GB",
@@ -35,6 +39,7 @@
     "id": 3,
     "brand": "OnePlus",
     "model": "11R",
+   "cat":"shoe",
     "price": 599,
     "color": "Sonic Black",
     "ram": "8GB",
@@ -92,6 +97,7 @@
     "camera": "48MP + 12MP",
     "os": "Android 11",
     "rating": 3.8,
+     "cat":"Electronics",
     "images": ["https://example.com/images/brand6-front.jpg"],
     "description": "Model6 delivers a smooth Android 11 experience with expanded storage and a dual-lens camera at an affordable price."
   },
@@ -102,6 +108,7 @@
     "price": 570,
     "color": "Color7",
     "ram": "7GB",
+     "cat":"Electronics",
     "storage": "256GB",
     "battery": "4400mAh",
     "display": "6.3-inch OLED",
@@ -119,6 +126,8 @@
     "color": "Color8",
     "ram": "4GB",
     "storage": "64GB",
+         "cat":"Electronics",
+
     "battery": "4600mAh",
     "display": "6.0-inch OLED",
     "camera": "50MP + 12MP",
@@ -136,6 +145,8 @@
     "ram": "5GB",
     "storage": "128GB",
     "battery": "4800mAh",
+         "cat":"Electronics",
+
     "display": "6.1-inch OLED",
     "camera": "48MP + 12MP",
     "os": "Android 14",
@@ -150,6 +161,8 @@
     "price": 600,
     "color": "Color10",
     "ram": "6GB",
+         "cat":"Electronics",
+
     "storage": "192GB",
     "battery": "4000mAh",
     "display": "6.2-inch OLED",
@@ -172,6 +185,8 @@
     "camera": "50MP + 12MP",
     "os": "Android 11",
     "rating": 3.8,
+         "cat":"Electronics",
+
     "images": ["https://example.com/images/brand11-front.jpg"],
     "description": "Model11 is a reliable device with ample storage and RAM, perfect for productivity and daily multitasking needs."
   },
@@ -180,8 +195,11 @@
     "brand": "Brand12",
     "model": "Model12",
     "price": 620,
+         "cat":"Electronics",
+
     "color": "Color12",
     "ram": "4GB",
+    
     "storage": "64GB",
     "battery": "4400mAh",
     "display": "6.0-inch OLED",
@@ -197,6 +215,8 @@
     "model": "Model13",
     "price": 630,
     "color": "Color13",
+         "cat":"Electronics",
+
     "ram": "5GB",
     "storage": "128GB",
     "battery": "4600mAh",
@@ -211,6 +231,7 @@
     "id": 14,
     "brand": "Brand14",
     "model": "Model14",
+   "cat":"Electronics",
     "price": 640,
     "color": "Color14",
     "ram": "6GB",
@@ -230,6 +251,7 @@
     "price": 650,
     "color": "Color15",
     "ram": "7GB",
+    "cat":"Electronics",
     "storage": "256GB",
     "battery": "4000mAh",
     "display": "6.3-inch OLED",
